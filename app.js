@@ -3,7 +3,8 @@ function main() {
   console.log('Application Initialized . . .');
 
   const {app, BrowserWindow} = require('electron');
-
+  require('electron-reload')(__dirname);
+  
   function createWindow () {
       window = new BrowserWindow({width: 800, height: 600});
       window.loadFile('index2.html');

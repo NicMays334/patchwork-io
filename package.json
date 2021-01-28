@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/NicMays334/patchwork-io#readme",
   "devDependencies": {
-    "electron": "^9.0.0"
+    "electron": "^9.4.0"
   },
   "dependencies": {
     "electron-reload": "^1.5.0"
